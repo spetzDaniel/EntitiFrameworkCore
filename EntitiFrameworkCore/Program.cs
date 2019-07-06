@@ -7,6 +7,8 @@ namespace EntitiFrameworkCore
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            
         }
     }
 }

@@ -8,15 +8,27 @@ namespace DataAccess
 {
     public static class Startup
     {
+        //public static void ConfigureServices(
+        //    IServiceCollection serviceCollection,
+        //    string connectionString)
+        //{
+
+        //    var builder = new DbContextOptionsBuilder<DataBaseContext>();
+        //    builder.UseSqlServer(connectionString);
+
+
+
+        //}
+
+
         public static void ConfigureServices(
-            IServiceCollection serviceCollection,
-            string connectionString)
+      IServiceCollection serviceCollection,
+      string connectionString)
         {
 
-            var builder = new DbContextOptionsBuilder<DataBaseContext>();
-            builder.UseSqlServer(connectionString);
+            serviceCollection.AddDbContext<DataBaseContext>(opt => opt.UseSqlServer(connectionString));
 
-           
+
 
         }
 

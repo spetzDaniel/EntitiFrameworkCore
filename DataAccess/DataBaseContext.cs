@@ -34,7 +34,8 @@ namespace DataAccess
                 (
                 new ClaimType { ClaimTypeID = 1, ClaimTypeName = "P&I" },
                 new ClaimType { ClaimTypeID = 2, ClaimTypeName = "FDD" },
-                new ClaimType { ClaimTypeID = 3, ClaimTypeName = "Loss Prevention" }
+                new ClaimType { ClaimTypeID = 3, ClaimTypeName = "Loss Prevention" },
+                 new ClaimType { ClaimTypeID = 4, ClaimTypeName = "War" }
                 );
         }
     }
